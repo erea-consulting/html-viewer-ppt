@@ -4,22 +4,22 @@
            xsi:type="ContentApp">
 
   <Id>78cd38eb-fd45-4d43-8d64-4a3c0aa80232</Id>
-  <Version>1.0.0.0</Version>
+  <Version>1.1.0.0</Version>
   <ProviderName>EREA Consulting Group</ProviderName>
   <DefaultLocale>es-MX</DefaultLocale>
 
-  <DisplayName DefaultValue="HTML Viewer (web)"/>
-  <Description DefaultValue="Inserta paginas HTML interactivas dentro de una diapositiva. El HTML se guarda dentro del propio .pptx."/>
+  <DisplayName DefaultValue="HTML Viewer (EREA)"/>
+  <Description DefaultValue="Inserta gráficos HTML interactivos de EREA dentro de una diapositiva. El HTML se guarda dentro del propio .pptx."/>
 
-  <IconUrl DefaultValue="https://betoaguirre.github.io/html-viewer-ppt/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://betoaguirre.github.io/html-viewer-ppt/icon-80.png"/>
+  <IconUrl DefaultValue="https://erea-consulting.github.io/html-viewer-ppt/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://erea-consulting.github.io/html-viewer-ppt/icon-80.png"/>
 
   <Hosts>
     <Host Name="Presentation"/>
   </Hosts>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://betoaguirre.github.io/html-viewer-ppt/viewer.html"/>
+    <SourceLocation DefaultValue="https://erea-consulting.github.io/html-viewer-ppt/viewer.html"/>
     <RequestedWidth>800</RequestedWidth>
     <RequestedHeight>500</RequestedHeight>
   </DefaultSettings>
